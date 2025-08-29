@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://www.pngall.com/wp-content/uploads/14/Pattern-PNG-Images.png");
+    background-repeat: repeat;
+    background-blend-mode: hard-light;
+    background-color: var(--dark)
+}
+
+#main {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+#mainheader {
+    background-color: var(--grey);
+    color: var(--primary);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerightside {
+    display: flex;
+    gap: 1rem;
+}
+
+#formulaire {}
+
+#compte {
+    margin-left: auto;
+}
+
+#mainbody {
+    background-color: var(--secondary);
+    color: var(--light);
+    margin: 1%;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#mainbodytitle {
+    text-align: center;
+}
+
+#mainbodycontent {
+    display: flex;
+}
+
+#mainbodyleft {
+    width: 50%;
+}
+
+#mainbodyright {
+    width: 50%;
+}
+
+#mainfooter {
+    background-color: var(--grey);
+    color: var(--primary);
+    margin: 1%;
+    border-radius: 5em;
+    background-image: url("mlbg.jpg");
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 10em;
+    height: 4em;
+    border-radius: 1em;
+}
+
+#stonks {
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    background-color: white;
+}
+
+th,
+td {
+    border: solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
